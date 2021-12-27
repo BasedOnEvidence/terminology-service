@@ -1,4 +1,3 @@
-import django_filters
 from django.shortcuts import render
 from rest_framework import viewsets, permissions, generics
 from .models import Directory, DirectoryItem
