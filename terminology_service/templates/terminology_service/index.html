@@ -5,14 +5,35 @@
 {% endblock %}
 
 {% block content %}
-    <h2>Instructions</h2>
+    <h3>Instructions</h3>
     <p>
-        <ul>
-            <li><a href="info/api/directories/" target="_blank">[site_name]/info/api/directories/</a></li>
-            <li><a href="info/api/directories/?page=2" target="_blank">[site_name]/info/api/directories/?page=2</a></li>
-            <li><a href="info/api/directories/?date=2021-12-02" target="_blank">[site_name]/info/api/directories/?date=2021-12-02</a></li>
-            <li><a href="info/api/items" target="_blank">[site_name]/info/api/items</a></li>
-            <li><a href="info/api/items/?name=Antibiotics&version=1.2.643.2.69.1.1.1.74" target="_blank">[site_name]info/api/items/?name=Antibiotics&version=1.2.643.2.69.1.1.1.74</a></li>
-        </ul>
+        The Terminology service provides a mechanism for managing the process of maintaining reference information and
+        provides functions for its integration between various accounting and information systems, being a single source of
+        consistent information about reference directories.
+    </p>
+    <h3>How to get data</h3>
+    <p>
+        You can use api to get data without authentication. See examples below.
+    <ul>
+        <li>Get list of directories: <a href="info/api/directories/" target="_blank">info/api/directories/</a>
+        </li>
+        <li>Get list of directories on specific page: <a href="info/api/directories/?page=2"
+                target="_blank">info/api/directories/?page=2</a></li>
+        <li>Get events relevant to the specified date: <a href="info/api/directories/?date=2021-12-02"
+                target="_blank">info/api/directories/?date=2021-12-02</a></li>
+        <li>Get list of items in directories: <a href="info/api/items" target="_blank">info/api/items</a></li>
+        <li>Get list of items of specified directory:<a
+                href="info/api/items/?name=Antibiotics&version=1.2.643.2.69.1.1.1.74"
+                target="_blank">info/api/items/?name=Antibiotics&version=1.2.643.2.69.1.1.1.74</a></li>
+    </ul>
+    </p>
+    <h3>How to add data</h3>
+    <p>
+        Open <a href="admin">admin panel</a>. There are following accounts available:
+    <ul>
+        <li>Super user with full access. Login: <b>admin</b>; password: <b>Qwerty!@</b></li>
+        <li>Administrator with full access to directories tables. Login: <b>termadmin</b>; password: <b>Qwerty!@</b></li>
+    </ul>
+        You can add new data via provided forms.
     </p>
 {% endblock %}
