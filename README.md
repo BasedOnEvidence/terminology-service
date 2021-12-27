@@ -5,7 +5,7 @@
   <a href="#descrition">Description</a> •
   <a href="#key-features">Key Features</a> •
   <a href="#installation">Installation</a> •
-  <a href="#how-to-use">How To Use</a> •
+  <a href="#how-to-use">How To Use</a>
 </p>
 
 
@@ -38,6 +38,6 @@ $ make runserver
 Open http://127.0.0.1:8000/ in your browser and read instructions on main page
 
 
-> GitHub [@BasedOnEvidence](https://github.com/BasedOnEvidence/) &nbsp;&middot;&nbsp;
+> GitHub [@BasedOnEvidence](https://github.com/BasedOnEvidence/)
 
 
