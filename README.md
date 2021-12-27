@@ -25,17 +25,12 @@ Demo site that demonstrates the basic features of the Django framework
 You'll need [Git](https://git-scm.com) and [Python3](https://www.python.org/downloads/) installed on your computer/
 
 ```bash
-git clone https://github.com/BasedOnEvidence/terminology-service
-
-cd terminology-service
-
-python3 -m venv .venv
-
-source .venv/bin/activate
-
-pip install -r requirements.txt
-
-make runserver
+$ git clone https://github.com/BasedOnEvidence/terminology-service
+$ cd terminology-service
+$ python3 -m venv .venv
+$ source .venv/bin/activate
+$ pip install -r requirements.txt
+$ make runserver
 ```
 
 ## How To Use
