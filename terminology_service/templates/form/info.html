@@ -1,0 +1,18 @@
+{% extends '../terminology_service/base.html' %}
+
+{% block title %}
+    Info
+{% endblock %}
+
+{% block content %}
+    <h3>Current directories: </h3>
+    {% if directories %}
+        {% for item in directories %}
+            <div class="alert alert-warning mt-2">
+                <h6>{{ item.name }} {{ item.version }}</h6>
+            </div>
+        {% endfor %}
+    {% else %}
+            <p>No records found</p>
+    {% endif %}
+{% endblock %}
